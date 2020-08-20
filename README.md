@@ -6,3 +6,4 @@ hard work pays off.
 ### day2: moviePoster
 ### day3: sumDigits
 ### day4: anagrams
+### day5: count letters
