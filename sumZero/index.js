@@ -2,3 +2,5 @@
 
 
 // countUniqueValues accepts a sorted array and counts unique values in the array there can be negative numbers, but they will be sorted
+
+add something ...console.
