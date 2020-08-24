@@ -7,3 +7,4 @@ hard work pays off.
 ### day3: sumDigits
 ### day4: anagrams
 ### day5: count letters
+### day6: findGreater
