@@ -22,3 +22,4 @@ function path(array) {
 }
 
 console.log(path([6,3,5,4,3,4,4,5]));
+
