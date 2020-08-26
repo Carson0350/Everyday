@@ -9,3 +9,4 @@ hard work pays off.
 ### day5: count letters
 ### day6: findGreater
 ### day7: recursion
+### day8: sumDigits
