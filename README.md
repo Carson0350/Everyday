@@ -10,3 +10,6 @@ hard work pays off.
 ### day6: findGreater
 ### day7: recursion
 ### day8: sumDigits
+### day8: anotherOne
+
+
