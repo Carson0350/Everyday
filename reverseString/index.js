@@ -1,5 +1,5 @@
 /*
-
+reverse a string
  */
 
 function reverseString (string) {
