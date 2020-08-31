@@ -12,4 +12,4 @@ hard work pays off.
 ### day8: sumDigits
 ### day8: anotherOne
 ### day9: reverseString
-### day10:
+### day10: rampNumbers
