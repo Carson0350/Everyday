@@ -14,3 +14,4 @@ hard work pays off.
 ### day9: reverseString
 ### day10: rampNumbers
 ### day11: longestString
+### day12: combine&sort
