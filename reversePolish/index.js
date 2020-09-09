@@ -50,8 +50,6 @@ console.log(calculateRPN('1 2 + 4 5 6 8 * - + +')) //-36
 
 */
 
-// If a number is input, store the value.
-// If an operator is input, get the last 2 values and operate on them.
 function calculateRPN(input) {
   let queue = [];
   input.split(' ').forEach((input) => {
