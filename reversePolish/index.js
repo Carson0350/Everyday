@@ -49,3 +49,34 @@ console.log(calculateRPN('5 1 2 + 4 × + 3 −')) //14
 console.log(calculateRPN('1 2 + 4 5 6 8 * - + +')) //-36
 
 */
+
+// If a number is input, store the value.
+// If an operator is input, get the last 2 values and operate on them.
+function calculateRPN(input) {
+  let queue = [];
+  input.split(' ').forEach((input) => {
+    if(!isNaN(input) && isFinite(input)) {
+      queue.push(input);
+    } else {
+      let first = parseInt(queue.pop());
+      let second = parseInt(queue.pop());
+      if(input === "+") {
+        queue.push(second + first);
+      } else if (input === "-") {
+        queue.push(second - first);
+      } else if (input === "*" ) {
+        queue.push(second * first);
+      } else if (input === "/") {
+        queue.push(second / first);
+      }
+    }
+  })
+  if (queue.length > 1) {
+    return "ERROR!";
+  } else {
+    return queue.pop();
+  }
+}
+
+console.log(calculateRPN('5 1 2 + 4 * + 3 −')) //14
+console.log(calculateRPN('1 2 + 4 5 6 8 * - + +')) //-36
