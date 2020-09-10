@@ -17,3 +17,4 @@ hard work pays off.
 ### day12: combine&sort
 ### day13: parensChecker
 ### day14: reversePolish
+### day15: curryFunction
