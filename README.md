@@ -18,3 +18,4 @@ hard work pays off.
 ### day13: parensChecker
 ### day14: reversePolish
 ### day15: curryFunction
+### day16: bob
